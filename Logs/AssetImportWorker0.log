@@ -15,12 +15,12 @@ C:/Users/97156/Documents/GitHub/AIM-RubberHand
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51471
+52266
 Successfully changed project path to: C:/Users/97156/Documents/GitHub/AIM-RubberHand
 C:/Users/97156/Documents/GitHub/AIM-RubberHand
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 110.35 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.66 ms.
+Refreshing native plugins compatible for Editor in 131.17 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.84 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/97156/Documents/GitHub/AIM-RubberHand/Assets
@@ -36,54 +36,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.002825 seconds.
+Registered in 0.002817 seconds.
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 122.71 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 95.07 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.725 seconds
+- Completed reload, in  2.578 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2725ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (2578ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (645ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (278ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006592 seconds.
+Registered in 0.007157 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to retrieve XR Display Interface.
@@ -91,46 +91,46 @@ Preloading 1 native plugins for Editor in 0.09 ms.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.72.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.493 seconds
+- Completed reload, in  1.586 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1494ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (1586ms)
+		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1212ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1313ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (427ms)
+			SetupTypeCache (432ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (433ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (496ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 134.2 MB.
 System memory in use after: 134.2 MB.
 
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3500.
-Total: 4.022000 ms (FindLiveObjects: 0.344300 ms CreateObjectMapping: 0.194800 ms MarkObjects: 3.195500 ms  DeleteObjects: 0.286300 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3501.
+Total: 4.092600 ms (FindLiveObjects: 0.390600 ms CreateObjectMapping: 0.213300 ms MarkObjects: 3.205600 ms  DeleteObjects: 0.282200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -145,25 +145,189 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/red.mat
-  artifactKey: Guid(dcd0fab717024f643929ec1ccbe1d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/red.mat using Guid(dcd0fab717024f643929ec1ccbe1d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f289b580d9bb6a002a8849079fc61a') in 0.424769 seconds 
-  Import took 0.430618 seconds .
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(a14267e85c46af14cb81f765a46e578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(a14267e85c46af14cb81f765a46e578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd8aebb71da235e008c37e5a312a3f9') in 0.047464 seconds 
+  Import took 0.053011 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1293ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1105ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2980 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 125.6 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3504.
+Total: 5.109500 ms (FindLiveObjects: 0.386400 ms CreateObjectMapping: 0.190400 ms MarkObjects: 4.254200 ms  DeleteObjects: 0.277500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.875769 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.011234 seconds 
+  Import took 0.017202 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/aimlogo.obj
-  artifactKey: Guid(9f35cf59de8e5ee4b91a3e3a5675f39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/aimlogo.obj using Guid(9f35cf59de8e5ee4b91a3e3a5675f39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358618e3cde0ef5b31f6fd9cd1f06ba7') in 0.099837 seconds 
-  Import took 0.105342 seconds .
+  Time since last request: 4.137903 seconds.
+  path: Assets/Models
+  artifactKey: Guid(5bf0598f09c47b74ea7e321f3e945bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(5bf0598f09c47b74ea7e321f3e945bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffe4bcea027e7fc865a255650b894a3') in 0.006982 seconds 
+  Import took 0.015475 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/red 1.mat
-  artifactKey: Guid(03c25e0e7e16c5445ae120b2385648e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/red 1.mat using Guid(03c25e0e7e16c5445ae120b2385648e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0a2a35c234b6f51f2baf3c579c779e') in 0.014894 seconds 
-  Import took 0.020966 seconds .
+  Time since last request: 9.741011 seconds.
+  path: Assets/Models/Spider
+  artifactKey: Guid(3c7a65c0d3337e34ca09abc91f0db5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider using Guid(3c7a65c0d3337e34ca09abc91f0db5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3afc08a857a545c9ca4f8d04649893f') in 0.006932 seconds 
+  Import took 0.013454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.319634 seconds.
+  path: Assets/Models/Spider/normalmap.png
+  artifactKey: Guid(2eaf4659e80f0b549adc720114030b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/normalmap.png using Guid(2eaf4659e80f0b549adc720114030b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ea966df9f0d8b89c8740d2eeed5da4') in 0.135979 seconds 
+  Import took 0.143550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Models/Spider/spiderTexturenew2.png
+  artifactKey: Guid(76c0454101619024589cb70ef188bbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/spiderTexturenew2.png using Guid(76c0454101619024589cb70ef188bbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc8f237b542e284496c0678b4219b77') in 0.019599 seconds 
+  Import took 0.025727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Models/Spider/occlusionspider.png
+  artifactKey: Guid(8bb6960b2c1516d43b888f4fd36f218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/occlusionspider.png using Guid(8bb6960b2c1516d43b888f4fd36f218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9d505d31b823214d8a8555e6e37f4e') in 0.015475 seconds 
+  Import took 0.021485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Models/Spider/spider.fbx
+  artifactKey: Guid(4d9c0f0c0424e434880018e51cd56d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/spider.fbx using Guid(4d9c0f0c0424e434880018e51cd56d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd135bfd06842ccc8ec14bc66eee5a84a') in 0.474344 seconds 
+  Import took 0.483997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.455254 seconds.
+  path: Assets/Models/Spider/normalmap.png
+  artifactKey: Guid(2eaf4659e80f0b549adc720114030b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/normalmap.png using Guid(2eaf4659e80f0b549adc720114030b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deab1c57b8cd03b4a5e9bb7f75986a0f') in 0.017472 seconds 
+  Import took 0.024278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.954207 seconds.
+  path: Assets/Models/Spider/eye.mat
+  artifactKey: Guid(d341f0bb76c7c3c4a8302b3cf8b70ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/eye.mat using Guid(d341f0bb76c7c3c4a8302b3cf8b70ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd994992f8fbdca0303020666ebdae669') in 0.037157 seconds 
+  Import took 0.043674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Models/Spider/fur.mat
+  artifactKey: Guid(5d6247b3d59e5664e843231aaffbfa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/fur.mat using Guid(5d6247b3d59e5664e843231aaffbfa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d9ad9a908c83a035924637b637497c') in 0.016589 seconds 
+  Import took 0.022575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Models/Spider/Spider.mat
+  artifactKey: Guid(98c0ad8364779d4428aefe2d0782c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/Spider.mat using Guid(98c0ad8364779d4428aefe2d0782c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2091620393c32fe70275556dfa5ce46d') in 0.019681 seconds 
+  Import took 0.026506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Models/Spider/spider.fbx
+  artifactKey: Guid(4d9c0f0c0424e434880018e51cd56d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/spider.fbx using Guid(4d9c0f0c0424e434880018e51cd56d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9367f7c6d9082d1b97d77488d650be') in 0.067917 seconds 
+  Import took 0.075460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.124970 seconds.
+  path: Assets/Models/Spider/eye.mat
+  artifactKey: Guid(d341f0bb76c7c3c4a8302b3cf8b70ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/eye.mat using Guid(d341f0bb76c7c3c4a8302b3cf8b70ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f54af829471552f7ff6484ee5587ec') in 0.020625 seconds 
+  Import took 0.027523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Models/Spider/fur.mat
+  artifactKey: Guid(5d6247b3d59e5664e843231aaffbfa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/fur.mat using Guid(5d6247b3d59e5664e843231aaffbfa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0628246a6e311b252f264fc44f4c08fc') in 0.016300 seconds 
+  Import took 0.021795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Models/Spider/Spider.mat
+  artifactKey: Guid(98c0ad8364779d4428aefe2d0782c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spider/Spider.mat using Guid(98c0ad8364779d4428aefe2d0782c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9fadef785b3a60fec17a9a891fe772') in 0.014252 seconds 
+  Import took 0.019606 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
